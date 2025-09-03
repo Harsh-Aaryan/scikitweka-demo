@@ -3,7 +3,7 @@ import pandas as pd # Data Manipulation
 import numpy as np # Numerical Operations
 
 
-#skit-learn for ml tasks
+#scikit-learn for ml tasks
 from sklearn.model_selection import train_test_split, GridSearchCV 
 from sklearn.preprocessing import MinMaxScaler 
 from sklearn.neighbors import KNeighborsClassifier
