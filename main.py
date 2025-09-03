@@ -59,6 +59,7 @@ data = preprocess_data(data)
 X = data.drop(columns=["Survived"])
 y = data["Survived"]
 
+#We reserve 25% of data for testing - this ensures our model works on unseen data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
 
 # 4. Preprocess Features (Scaling)
@@ -67,7 +68,7 @@ scaler = MinMaxScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 # 5. Choose Model & Hyperparameter Tuning
-
+#We're testing different parameters automatically to find the best combination
 
 # Hyperparemeter Tuning - KNN 
 def tune_model(X_train, y_train):
