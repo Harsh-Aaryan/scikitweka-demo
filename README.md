@@ -24,7 +24,7 @@ This script loads the Titanic dataset, cleans and preprocesses the data, splits 
 	```
 2. **Install required packages:**
 	```powershell
-	pip install pandas numpy scikit-learn matplotlib seaborn
+	pip install -r requirements.txt
 	```
 3. **Run the script:**
 	```powershell
@@ -32,14 +32,9 @@ This script loads the Titanic dataset, cleans and preprocesses the data, splits 
 	```
 
 ## Prerequisites
-- Python 3.x
-- The following Python packages:
-  - pandas
-  - numpy
-  - scikit-learn
-  - matplotlib
-  - seaborn
-- Titanic dataset file named `titanic.csv` in the project directory
+ - Python 3.x
+ - Install all required packages using `requirements.txt`
+ - Titanic dataset file named `titanic.csv` in the project directory
 
 ## Virtual Environment Setup
 
