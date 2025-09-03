@@ -1,5 +1,6 @@
 # KNN-Machine-Learning
 **PowerPoint:** [Project Presentation](https://docs.google.com/presentation/d/1HM2H3yv5DL9PgcKRwZc01i87o_ZUv0Zndt8AEUi7464/edit?usp=sharing)
+**WEKA:** [Download WEKA](https://waikato.github.io/weka-wiki/downloading_weka/)
 Build a KNN Model for the Titanic Dataset using Scikit-Learn
 
 ## What does main.py do?
